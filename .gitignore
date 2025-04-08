@@ -37,4 +37,8 @@ var/
 *.log
 
 # Local configuration
-.DS_Store 
+.DS_Store
+
+# Large files
+data/dunnhumby.db
+src/database/dunnhumby.db 
