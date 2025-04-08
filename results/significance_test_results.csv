@@ -1,0 +1,11 @@
+Feature,Correlation,P-Value,Significant
+top_dept_spend,0.9667191762788481,0.0,True
+unique_products,0.8986966658296264,0.0,True
+campaigns_participated,0.7602129444696017,0.0,True
+active_weeks,0.7185063596678206,0.0,True
+total_baskets,0.7030302021152971,0.0,True
+basket_frequency,0.6987775792581072,0.0,True
+total_items,0.6661458122172486,1.665e-320,True
+coupons_redeemed,0.4041776087338703,7.0256022262028104e-99,True
+avg_basket_value,0.38917102005608184,3.369006438396147e-91,True
+avg_items_per_basket,0.36067663446306536,1.1213289962470524e-77,True

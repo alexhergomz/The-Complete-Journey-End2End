@@ -1,0 +1,34 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            total_spend   R-squared:                       0.967
+Model:                            OLS   Adj. R-squared:                  0.967
+Method:                 Least Squares   F-statistic:                     7222.
+Date:                Tue, 08 Apr 2025   Prob (F-statistic):               0.00
+Time:                        13:51:31   Log-Likelihood:                -19586.
+No. Observations:                2500   AIC:                         3.919e+04
+Df Residuals:                    2489   BIC:                         3.926e+04
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+const                   3222.9852     12.250    263.101      0.000    3198.964    3247.006
+top_dept_spend          2187.7903     33.450     65.406      0.000    2122.199    2253.382
+unique_products          519.1646     32.478     15.985      0.000     455.479     582.851
+campaigns_participated    -7.9887     23.847     -0.335      0.738     -54.751      38.774
+active_weeks              24.0541     24.541      0.980      0.327     -24.068      72.177
+total_baskets           -257.9306    137.011     -1.883      0.060    -526.597      10.736
+basket_frequency         442.1557    133.163      3.320      0.001     181.034     703.278
+total_items              745.8635     22.052     33.823      0.000     702.622     789.105
+coupons_redeemed         -14.6994     13.868     -1.060      0.289     -41.893      12.494
+avg_basket_value         191.8916     18.066     10.622      0.000     156.466     227.317
+avg_items_per_basket    -136.3527     18.696     -7.293      0.000    -173.014     -99.691
+==============================================================================
+Omnibus:                      909.313   Durbin-Watson:                   1.971
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           141306.035
+Skew:                           0.604   Prob(JB):                         0.00
+Kurtosis:                      39.811   Cond. No.                         36.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

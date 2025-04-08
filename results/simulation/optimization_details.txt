@@ -1,0 +1,13 @@
+Optimization Results
+====================
+
+Optimization goal: revenue
+Budget constraint: 5.0 units
+Schedule cost: 0.00 units
+
+Intervention Schedule:
+
+Results:
+Baseline total revenue: $6635662.72
+Optimized total revenue: $6605122.95
+Improvement: -0.46%

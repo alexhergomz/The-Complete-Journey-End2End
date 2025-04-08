@@ -1,0 +1,16 @@
+Feature,Importance
+total_spend,0.18400168644539355
+total_retail_discount,0.14134885176385628
+unique_products,0.13698849373542943
+top_dept_spend,0.13483504129041113
+basket_frequency,0.09165874920240424
+active_weeks,0.08521007472326884
+total_baskets,0.06782205245639242
+campaigns_participated,0.05269375375806826
+total_coupon_discount,0.02850251992878377
+total_items,0.02731122990954217
+total_coupon_match_discount,0.014544131644421024
+coupons_redeemed,0.01169405051965315
+day_span,0.008860339282076657
+avg_transaction_value,0.007266700564640268
+unique_stores_visited,0.007262324775658945

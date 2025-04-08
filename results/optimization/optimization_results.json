@@ -1,0 +1,99 @@
+{
+    "current_transition_matrix": {
+        "Premium": {
+            "Premium": 0.9596906681256683,
+            "Value": 0.06558823529411764,
+            "Inactive": 0.009444580440185835
+        },
+        "Value": {
+            "Premium": 0.037884035845551736,
+            "Value": 0.8758390092879257,
+            "Inactive": 0.01916503795576382
+        },
+        "Inactive": {
+            "Premium": 0.0024252960287799836,
+            "Value": 0.05857275541795666,
+            "Inactive": 0.9713903816040503
+        }
+    },
+    "optimal_transition_matrix": {
+        "Premium": {
+            "Premium": 1.0,
+            "Value": 0.0,
+            "Inactive": 0.0
+        },
+        "Value": {
+            "Premium": 0.3378840350736781,
+            "Value": 0.6621159642383277,
+            "Inactive": 6.879941961554257e-10
+        },
+        "Inactive": {
+            "Premium": 0.3024252947811691,
+            "Value": 0.026184322744498206,
+            "Inactive": 0.6713903824743327
+        }
+    },
+    "current_ltv": 277.6595486810466,
+    "optimized_ltv": 615.4226961206691,
+    "ltv_improvement": 337.7631474396225,
+    "ltv_improvement_percentage": 121.64650884296373,
+    "current_steady_state": {
+        "Premium": 0.33333333333333337,
+        "Value": 0.3333333333333333,
+        "Inactive": 0.3333333333333333
+    },
+    "optimal_steady_state": {
+        "Premium": 0.9999999844639154,
+        "Value": 1.0081533591693159e-08,
+        "Inactive": 5.454550721420796e-09
+    },
+    "state_revenues": {
+        "Premium": 41.570113116866445,
+        "Value": 15.608956899777853,
+        "Inactive": 6.5018399326031995
+    },
+    "key_transition_improvements": {
+        "Premium_to_Premium": {
+            "current": 0.9596906681256683,
+            "optimal": 1.0,
+            "change": 0.04030933187433172,
+            "percentage_change": 4.200242141882882
+        },
+        "Premium_to_Value": {
+            "current": 0.06558823529411764,
+            "optimal": 0.0,
+            "change": -0.06558823529411764,
+            "percentage_change": -100.0
+        },
+        "Premium_to_Inactive": {
+            "current": 0.009444580440185835,
+            "optimal": 0.0,
+            "change": -0.009444580440185835,
+            "percentage_change": -100.0
+        },
+        "Value_to_Premium": {
+            "current": 0.037884035845551736,
+            "optimal": 0.3378840350736781,
+            "change": 0.29999999922812637,
+            "percentage_change": 791.8902844754639
+        },
+        "Value_to_Inactive": {
+            "current": 0.01916503795576382,
+            "optimal": 6.879941961554257e-10,
+            "change": -0.019165037267769625,
+            "percentage_change": -99.99999641016001
+        },
+        "Inactive_to_Premium": {
+            "current": 0.0024252960287799836,
+            "optimal": 0.3024252947811691,
+            "change": 0.2999999987523891,
+            "percentage_change": 12369.623963112683
+        },
+        "Inactive_to_Value": {
+            "current": 0.05857275541795666,
+            "optimal": 0.026184322744498206,
+            "change": -0.03238843267345845,
+            "percentage_change": -55.296071428337015
+        }
+    }
+}

@@ -1,0 +1,14 @@
+Cluster 0: Cluster 0: Low-Spenders, Infrequent-Shoppers, Low-Variety
+Count: 1850.0
+Avg Spend: $1724.10
+Avg Baskets: 65.8
+Avg Products: 366.9
+Shopping Frequency: 0.106
+--------------------------------------------------
+Cluster 1: Cluster 1: High-Spenders, Frequent-Shoppers, High-Variety
+Count: 650.0
+Avg Spend: $7489.04
+Avg Baskets: 238.2
+Avg Products: 1111.7
+Shopping Frequency: 0.371
+--------------------------------------------------

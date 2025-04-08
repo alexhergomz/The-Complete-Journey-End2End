@@ -1,0 +1,254 @@
+{
+    "features": [
+        "total_baskets",
+        "total_items",
+        "total_spend",
+        "total_retail_discount",
+        "total_coupon_discount",
+        "total_coupon_match_discount",
+        "unique_stores_visited",
+        "top_dept_spend",
+        "campaigns_participated",
+        "coupons_redeemed",
+        "basket_frequency"
+    ],
+    "current_values": {
+        "total_baskets": 110.5936,
+        "total_items": 104274.2488,
+        "total_spend": 3222.9852319999995,
+        "total_retail_discount": -559.333936,
+        "total_coupon_discount": -17.044616,
+        "total_coupon_match_discount": -3.030324,
+        "unique_stores_visited": 5.4648,
+        "top_dept_spend": 1650.29628,
+        "campaigns_participated": 2.8832,
+        "coupons_redeemed": 0.8916,
+        "basket_frequency": 0.17520410567929642
+    },
+    "optimal_values": {
+        "total_baskets": 127.18263999999999,
+        "total_items": 159368.61109529834,
+        "total_spend": 3213.4918009364496,
+        "total_retail_discount": -1566.1350208000001,
+        "total_coupon_discount": -30.6803088,
+        "total_coupon_match_discount": -3.0303239999999994,
+        "unique_stores_visited": 5.487753483256962,
+        "top_dept_spend": 2319.656983975798,
+        "campaigns_participated": 2.8832,
+        "coupons_redeemed": 0.8916000000000001,
+        "basket_frequency": 0.19272451624722606
+    },
+    "percentage_changes": {
+        "total_baskets": 14.999999999999991,
+        "total_items": 52.83601937135063,
+        "total_spend": -0.2945539734185765,
+        "total_retail_discount": 180.00000000000003,
+        "total_coupon_discount": 79.99999999999999,
+        "total_coupon_match_discount": -1.1102230246251565e-14,
+        "unique_stores_visited": 0.42002421418829705,
+        "top_dept_spend": 40.56003228558438,
+        "campaigns_participated": 0.0,
+        "coupons_redeemed": 2.220446049250313e-14,
+        "basket_frequency": 9.999999999999986
+    },
+    "current_transitions": {
+        "Premium": {
+            "Premium": 0.9596906681256683,
+            "Value": 0.06558823529411764,
+            "Inactive": 0.009444580440185835
+        },
+        "Value": {
+            "Premium": 0.037884035845551736,
+            "Value": 0.8758390092879257,
+            "Inactive": 0.01916503795576382
+        },
+        "Inactive": {
+            "Premium": 0.0024252960287799836,
+            "Value": 0.05857275541795666,
+            "Inactive": 0.9713903816040503
+        }
+    },
+    "optimal_transitions": {
+        "Premium": {
+            "Premium": 1.0,
+            "Value": 0.0,
+            "Inactive": 0.0
+        },
+        "Value": {
+            "Premium": 0.3378840350736781,
+            "Value": 0.6621159642383277,
+            "Inactive": 6.879941961554257e-10
+        },
+        "Inactive": {
+            "Premium": 0.3024252947811691,
+            "Value": 0.026184322744498206,
+            "Inactive": 0.6713903824743327
+        }
+    },
+    "feature_importances": {
+        "Value_to_Premium": {
+            "features": [
+                "total_baskets",
+                "total_items",
+                "total_spend",
+                "total_retail_discount",
+                "total_coupon_discount",
+                "total_coupon_match_discount",
+                "unique_stores_visited",
+                "top_dept_spend",
+                "campaigns_participated",
+                "coupons_redeemed",
+                "basket_frequency"
+            ],
+            "importance_means": [
+                0.08141788288845184,
+                0.11470450527945919,
+                0.039158029486945446,
+                0.06296326063537598,
+                0.028768451778887517,
+                0.012443516145064736,
+                -0.007750249020167565,
+                0.07366632767026804,
+                -0.007957420816188865,
+                0.0024845160117494603,
+                0.00836446957949113
+            ],
+            "importance_stds": [
+                0.01135963603749023,
+                0.02543822081491285,
+                0.02663213019417783,
+                0.010672153049983672,
+                0.009193144166302042,
+                0.005445170833219605,
+                0.005013144830282548,
+                0.01619602851141236,
+                0.003813410832261793,
+                0.003685033186049582,
+                0.0069173172948717165
+            ]
+        },
+        "Inactive_to_Premium": {
+            "features": [
+                "total_baskets",
+                "total_items",
+                "total_spend",
+                "total_retail_discount",
+                "total_coupon_discount",
+                "total_coupon_match_discount",
+                "unique_stores_visited",
+                "top_dept_spend",
+                "campaigns_participated",
+                "coupons_redeemed",
+                "basket_frequency"
+            ],
+            "importance_means": [
+                0.023275493329586207,
+                0.09985155801544696,
+                0.015300484171698025,
+                0.03962324389069318,
+                0.08045516736252448,
+                0.03232223166854942,
+                0.00030814971485051414,
+                0.11754569024118207,
+                0.019410546386203632,
+                0.004589682534906991,
+                0.08871885160885387
+            ],
+            "importance_stds": [
+                0.010168618518905118,
+                0.017124294299182986,
+                0.01593988439299401,
+                0.017067191919241248,
+                0.018827695498215388,
+                0.011734023375446805,
+                0.007793724011088916,
+                0.028492980965220092,
+                0.006256908201585318,
+                0.005225136293368518,
+                0.02513460117474806
+            ]
+        },
+        "Premium_to_Premium": {
+            "features": [
+                "total_baskets",
+                "total_items",
+                "total_spend",
+                "total_retail_discount",
+                "total_coupon_discount",
+                "total_coupon_match_discount",
+                "unique_stores_visited",
+                "top_dept_spend",
+                "campaigns_participated",
+                "coupons_redeemed",
+                "basket_frequency"
+            ],
+            "importance_means": [
+                -0.0016187601881611613,
+                0.016984108946694887,
+                0.0726489080608514,
+                0.05048307382668691,
+                0.016566154239362963,
+                0.0014246457999646412,
+                0.02186387121591522,
+                0.029037334552442416,
+                -8.279298695290649e-05,
+                0.0002062459249123627,
+                0.013218166301970147
+            ],
+            "importance_stds": [
+                0.008777633932913611,
+                0.008432865622253755,
+                0.014069774462503432,
+                0.013530961973635467,
+                0.007044402040481471,
+                0.00754691581303423,
+                0.00995537860594398,
+                0.0091869234373596,
+                0.005023525188746159,
+                0.0018074499557373114,
+                0.014779857424007711
+            ]
+        },
+        "Inactive_to_Value": {
+            "features": [
+                "total_baskets",
+                "total_items",
+                "total_spend",
+                "total_retail_discount",
+                "total_coupon_discount",
+                "total_coupon_match_discount",
+                "unique_stores_visited",
+                "top_dept_spend",
+                "campaigns_participated",
+                "coupons_redeemed",
+                "basket_frequency"
+            ],
+            "importance_means": [
+                0.19477763861591402,
+                0.09906950885721504,
+                0.42189216280633524,
+                0.010940039627966169,
+                0.0929320480678385,
+                0.0054720421744845595,
+                0.035356114300048216,
+                0.184598924401328,
+                0.0007604196954901443,
+                0.0029768934993234407,
+                0.03747550526563226
+            ],
+            "importance_stds": [
+                0.024613070351809194,
+                0.04196203125518361,
+                0.06888822579986285,
+                0.009306962394761725,
+                0.02513330471613313,
+                0.0035142264788248184,
+                0.011041356943865833,
+                0.04488053949771049,
+                0.0065762077266484364,
+                0.005520733508797488,
+                0.012409538416973424
+            ]
+        }
+    }
+}

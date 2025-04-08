@@ -1,0 +1,60 @@
+==== Cluster 1 Regression Results ====
+
+Linear model R²: 0.8368
+Random Forest R²: 0.8353
+
+Top 10 coefficients (linear model):
+basket_frequency: 3274.3098 (p-value: 0.3307)
+avg_transaction_value: 700.6541 (p-value: 0.0000)
+coupons_redeemed: 24.3492 (p-value: 0.0167)
+active_weeks: 12.2396 (p-value: 0.0191)
+total_coupon_match_discount: 12.1970 (p-value: 0.0224)
+campaigns_participated: 12.0501 (p-value: 0.5077)
+unique_products: 2.0777 (p-value: 0.0000)
+top_dept_spend: 1.3228 (p-value: 0.0000)
+day_span: 0.8077 (p-value: 0.7136)
+total_retail_discount: 0.1189 (p-value: 0.2609)
+
+Top 10 feature importances (random forest):
+top_dept_spend: 0.8713
+total_items: 0.0376
+avg_transaction_value: 0.0258
+unique_products: 0.0208
+campaigns_participated: 0.0081
+total_retail_discount: 0.0069
+total_baskets: 0.0054
+basket_frequency: 0.0049
+unique_stores_visited: 0.0040
+active_weeks: 0.0037
+
+
+==== Cluster 0 Regression Results ====
+
+Linear model R²: 0.9542
+Random Forest R²: 0.9545
+
+Top 10 coefficients (linear model):
+basket_frequency: 358.5117 (p-value: 0.6901)
+avg_transaction_value: 90.2177 (p-value: 0.0000)
+campaigns_participated: 22.0263 (p-value: 0.0004)
+coupons_redeemed: 18.4529 (p-value: 0.0647)
+total_coupon_match_discount: 10.7453 (p-value: 0.0265)
+active_weeks: 3.6182 (p-value: 0.0002)
+unique_products: 1.3337 (p-value: 0.0000)
+top_dept_spend: 1.1051 (p-value: 0.0000)
+total_items: 0.0019 (p-value: 0.0000)
+day_span: -0.0540 (p-value: 0.7532)
+
+Top 10 feature importances (random forest):
+top_dept_spend: 0.9197
+total_items: 0.0181
+unique_products: 0.0172
+avg_transaction_value: 0.0169
+total_retail_discount: 0.0072
+active_weeks: 0.0041
+day_span: 0.0030
+basket_frequency: 0.0027
+total_coupon_discount: 0.0026
+total_baskets: 0.0025
+
+

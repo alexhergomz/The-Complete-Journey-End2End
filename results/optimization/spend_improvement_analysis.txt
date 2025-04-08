@@ -1,0 +1,50 @@
+==== Cluster 1 Improvement Scenarios ====
+
+Current average spend: $7489.04
+
+Scenario: Premium Product Offers
+  Predicted average spend: $7474.44
+  Improvement: $-14.60
+  Improvement percentage: -0.19%
+
+Scenario: Cross-Category Shopping
+  Predicted average spend: $7566.50
+  Improvement: $77.46
+  Improvement percentage: 1.03%
+
+Scenario: Enhanced Loyalty & Engagement
+  Predicted average spend: $7499.91
+  Improvement: $10.86
+  Improvement percentage: 0.15%
+
+Scenario: All Strategies Combined
+  Predicted average spend: $7592.53
+  Improvement: $103.48
+  Improvement percentage: 1.38%
+
+
+==== Cluster 0 Improvement Scenarios ====
+
+Current average spend: $1724.10
+
+Scenario: Increased Shopping Frequency
+  Predicted average spend: $1747.87
+  Improvement: $23.77
+  Improvement percentage: 1.38%
+
+Scenario: Increased Product Diversity
+  Predicted average spend: $1792.75
+  Improvement: $68.65
+  Improvement percentage: 3.98%
+
+Scenario: Enhanced Coupon Utilization
+  Predicted average spend: $1732.70
+  Improvement: $8.60
+  Improvement percentage: 0.50%
+
+Scenario: All Strategies Combined
+  Predicted average spend: $1811.17
+  Improvement: $87.07
+  Improvement percentage: 5.05%
+
+

@@ -1,0 +1,11 @@
+Segment,Parameter,Optimized Value,Target Action
+Value Shoppers (Segment 0),top_dept_spend_multiplier,1.4895210981121492,Strongly increase focus on top department by 49.0%
+Value Shoppers (Segment 0),total_items_multiplier,1.7390109399504732,Strongly increase items per transaction by 73.9%
+Value Shoppers (Segment 0),unique_products_multiplier,2.0,Strongly increase product variety by 100.0%
+Value Shoppers (Segment 0),basket_frequency_multiplier,0.6236897824783803,Strongly decrease visit frequency by 37.6%
+Value Shoppers (Segment 0),avg_basket_value_multiplier,2.0,Strongly increase transaction value by 100.0%
+Premium Shoppers (Segment 1),top_dept_spend_multiplier,2.0,Strongly increase focus on top department by 100.0%
+Premium Shoppers (Segment 1),unique_products_multiplier,1.7989625503914115,Strongly increase product variety by 79.9%
+Premium Shoppers (Segment 1),campaigns_participated_multiplier,0.8887492521755699,Decrease targeted campaigns by 11.1%
+Premium Shoppers (Segment 1),active_weeks_multiplier,2.0,Strongly increase active shopping period by 100.0%
+Premium Shoppers (Segment 1),total_baskets_multiplier,2.0,Strongly increase number of transactions by 100.0%

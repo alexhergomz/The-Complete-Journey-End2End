@@ -1,0 +1,9 @@
+Segment Prediction Model Performance:
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.98       566
+           1       0.96      0.93      0.94       184
+
+    accuracy                           0.97       750
+   macro avg       0.97      0.96      0.96       750
+weighted avg       0.97      0.97      0.97       750

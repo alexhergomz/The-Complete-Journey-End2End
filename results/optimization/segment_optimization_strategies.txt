@@ -1,0 +1,26 @@
+==== Optimization Strategies for Cluster 1 ====
+
+1. Encourage regular shopping patterns with weekly specials
+2. Encourage exploration of new product categories with personalized recommendations
+3. Introduce category-specific promotions to expand product variety
+4. Increase participation in targeted campaigns with personalized offers
+5. Optimize discount strategy to drive incremental purchases
+6. Focus on personalized coupon offers matched to customer preferences
+7. Emphasize premium products and exclusive offerings for Premium Shoppers
+8. Develop VIP benefits and experiential rewards
+9. Create cross-category bundle offers that increase average basket value
+
+
+==== Optimization Strategies for Cluster 0 ====
+
+1. Encourage regular shopping patterns with weekly specials
+2. Encourage exploration of new product categories with personalized recommendations
+3. Introduce category-specific promotions to expand product variety
+4. Increase participation in targeted campaigns with personalized offers
+5. Optimize discount strategy to drive incremental purchases
+6. Focus on personalized coupon offers matched to customer preferences
+7. Focus on increasing shopping frequency for Value Shoppers
+8. Introduce lower barrier-to-entry loyalty programs
+9. Use loss-leader pricing on key value items to drive traffic
+
+
